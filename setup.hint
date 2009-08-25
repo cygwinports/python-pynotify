@@ -1,0 +1,4 @@
+category: Python Gnome
+requires: libgcc1 libglib2.0_0 libgtk2.0_0 libnotify1 python python-gobject2.0 python-gtk2.0
+sdesc: "Python libnotify bindings"
+ldesc: "Python bindings for libnotify (desktop notification library)"

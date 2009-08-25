@@ -1,0 +1,7 @@
+ORIG_PN="notify-python"
+
+inherit pygtk
+
+DESCRIPTION="Python libnotify bindings"
+HOMEPAGE="http://www.galago-project.org/"
+SRC_URI="http://www.galago-project.org/files/releases/source/${ORIG_PN}/${ORIG_PN}-${PV}.tar.bz2"
