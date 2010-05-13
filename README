@@ -3,23 +3,25 @@ python-pynotify
 Python bindings for libnotify (desktop notification library)
 
 Runtime requirements:
-  cygwin-1.7.0-60
-  libgcc1-4.3.2-2
-  libgdk_pixbuf2.0_0-2.16.5-1
-  libglib2.0_0-2.20.4-1
-  libgtk2.0_0-2.16.5-1
+  cygwin-1.7.5-1
+  libgcc1-4.3.4-3
+  libgdk_pixbuf2.0_0-2.18.6-1
+  libglib2.0_0-2.22.4-2
+  libgtk2.0_0-2.18.6-1
   libnotify1-0.4.5-10
-  python-2.5.4-10
-  python-gobject2.0-2.18.0-1
-  python-gtk2.0-2.16.0-1
+  python-2.6.5-1
+  python-gobject2.0-2.20.0-2
+  python-gtk2.0-2.16.0-2
 
 Build requirements:
-  cygwin-1.5.24-2
-  binutils-20060817-1
-  cygport-0.3.1-1
-  gcc-core-3.4.4-3
-  python-2.5.1-1
-  python-setuptools-0.6c5-2
+  autoconf2.5-2.65-1
+  automake1.9-1.9.6-10
+  binutils-2.20.51-2
+  cygport-0.9.83-1
+  gcc4-core-4.3.4-3
+  libtool-2.2.7a-15
+  make-3.81-2
+  python-2.6.5-1
 
 Canonical website:
   http://www.galago-project.org/
@@ -42,23 +44,10 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/pkgconfig/notify-python.pc
-  /usr/lib/python2.5/site-packages/gtk-2.0/pynotify/__init__.py
-  /usr/lib/python2.5/site-packages/gtk-2.0/pynotify/__init__.pyc
-  /usr/lib/python2.5/site-packages/gtk-2.0/pynotify/__init__.pyo
-  /usr/lib/python2.5/site-packages/gtk-2.0/pynotify/_pynotify.dll
-  /usr/lib/python2.5/site-packages/gtk-2.0/pynotify/_pynotify.la
-  /usr/share/doc/python-pynotify/AUTHORS
-  /usr/share/doc/python-pynotify/COPYING
-  /usr/share/doc/python-pynotify/ChangeLog
-  /usr/share/doc/python-pynotify/NEWS
-  /usr/share/pygtk/2.0/defs/pynotify.defs
-
-------------------
-
 Port Notes:
+
+----- version 0.1.1-3 -----
+Rebuilt for Python 2.6.
 
 ----- version 0.1.1-2 -----
 Initial release for Cygwin 1.7.
